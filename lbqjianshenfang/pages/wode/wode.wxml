@@ -1,0 +1,28 @@
+
+<view class="zuiwai">
+    <view class="top" >
+    <view class="userinfo">
+      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+  </view>
+  <view class="name">
+      <view class="xian">
+        <text class="userinfo-nickname">{{userInfo.nickName}}</text>  
+        <text class="xunlian">我已完成训练0个</text>
+        <text style="float:right;font-size:25rpx;margin-right:5%;margin-top:15%;color:#aaa;" bind:tap="oo">联系我们</text>
+      </view>
+       
+  </view>
+    </view>
+      
+      <view class="doing">
+           <text >进行中的训练</text>      
+      </view>
+       
+   <view class="neirong">
+<navigator url="../firstplan/firstplan" hover-class="navigator-hover"><image src="http://m.qpic.cn/psb?/V10KNnd03rkHsX/oLRDaUZ10I.YmZHN4rsucYZer3RLK8YjXIlQ8YNAJ1A!/b/dIMAAAAAAAAA&bo=OARsAgAAAAARB2I!&rf=viewer_4" /></navigator>
+
+</view>
+<view class="neirong" style="margin-top:1%;">
+<navigator url="../short/short" hover-class="navigator-hover"><image src="http://m.qpic.cn/psb?/V10KNnd03rkHsX/Sul0Bgm9Bx6*Mmy9TEjo8Wj8x5iHMi2LRMkEGwqqDSU!/b/dMMAAAAAAAAA&bo=OARsAgAAAAARF3I!&rf=viewer_4" /></navigator>
+</view>
+</view>

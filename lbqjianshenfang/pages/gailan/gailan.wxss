@@ -1,0 +1,52 @@
+/* pages/gailan/gailan.wxss */
+.top{
+    width: 100%;
+    height: 450rpx;
+}
+.top image{
+    width: 100%;
+    height: 450rpx;
+}
+.begin{
+    position: relative;
+    width: 150rpx;
+    height: 150rpx;
+    background: rgb(104, 255, 4);
+    border-radius: 80rpx;
+    text-align: center;
+    top: -40%;
+    left: 40%;
+}
+.begin text{
+top: 30%;
+position: relative;
+}
+.mid-c{
+    margin-top: 3%;
+    width: 100%;
+    height: 500rpx;
+}
+.mid-c image{
+    width: 100%;
+    height: 500rpx;  
+}
+.footer{
+    margin-top: 25%;
+    width: 100%;
+    height: 800rpx;
+}
+.neirong{
+    width: 100%;
+    height: 200rpx;
+    border-bottom:  1px solid #aaa;
+}
+.left{
+    float: left;
+    width: 28%;
+    height: 200rpx;
+    background: yellow;
+}
+.left image{
+width: 100%;
+height:200rpx;
+}
