@@ -1,0 +1,44 @@
+/* pages/firstplan/firstplan.wxss */
+.zuiwai{
+width:100%;
+height: 1200rpx;
+}
+.top{
+    width: 100%;
+    height: 450rpx;
+}
+.top image{
+    width: 100%;
+    height: 450rpx;
+}
+.mid{
+    width: 100%;
+    height: 500rpx;
+    border-bottom: 1px solid #d4d9d9;
+}
+.mid-1{
+    text-align: center;
+    margin-top: 5%;
+    width: 100%;
+    height: 150rpx;
+
+}
+.mid-2{
+    text-align: center;
+    margin-top: 15%;
+    width: 100%;
+    height: 150rpx;
+
+}
+.footer{
+    margin-top: 10%;
+    width: 100%;
+    height: 200rpx;
+}
+.footer button{
+    width: 70%;
+    height: 100rpx;
+    font-size: 40rpx;
+    background: black;
+    color: white;
+}

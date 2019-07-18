@@ -1,0 +1,49 @@
+<!--pages/jianjie/jianjie.wxml-->
+<view class="top"> 
+ <image src="../../images/sj_1.png" />
+  <view class="touxiang">
+   <image src="http://m.qpic.cn/psb?/V10KNnd03rkHsX/TfcGfeYKAmi7XOemjmxv6r20MNrejon*hrUPkkLT.vs!/b/dFMBAAAAAAAA&bo=IQEfAQAAAAADBxw!&rf=viewer_4" />
+   </view>
+  </view>
+<view class="mid">
+<view class="mid-c">
+     <view class="biaoti"><text >教练简介</text></view>
+     <view style="margin-top:5%;font-size:30rpx;color:#666;line-height:45rpx;">
+         <text >Nike签约教练，女子健康运动倡导者，擅长NTC/瑜伽，坐标北京</text>
+     </view>
+     <view style="font-size:30rpx;color:#666;line-height:45rpx;">
+         <text >Nike签约教练，女子健康运动倡导者，擅长NTC/瑜伽，坐标北京Nike签约教练，女子健康运动倡导者，
+         擅长NTC/瑜伽，坐标北京Nike签约教练，女子健康运动倡导者，擅长NTC/瑜伽，坐标北京</text>
+     </view>
+     <view style="font-size:30rpx;color:#666;line-height:45rpx;">
+         <text >Nike签约教练，女子健康运动倡导者，擅长NTC/瑜伽，坐标北京 Nike签约教练，女子健康运动倡导者，擅长NTC/瑜伽，坐标北京
+        </text>
+     </view>
+      <view class="biaoti" style="margin-top:3%"><text >健身理念</text></view>
+ <view style="margin-top:5%;font-size:30rpx;color:#666;line-height:45rpx;">
+         <text >Nike签约教练，女子健康运动倡导者，擅长NTC/瑜伽，坐标北京</text>
+     </view>
+</view>
+</view>
+<view class="footer">
+<view class="footer-c">
+    <view class="biaoti" style="margin-top:3%"><text >健身理念</text></view>
+     <view class="lizi">
+      <view class="left">
+      <image src="http://m.qpic.cn/psb?/V10KNnd03rkHsX/SVYNQEPjNBZRZQKxJfqPRZH2BAzuGGVqQ5WG1OCGv8s!/b/dDABAAAAAAAA&bo=CAEfAQAAAAABBzc!&rf=viewer_4" /> 
+      </view>
+       <view class="right">每日灵活伸展</view>
+       <view class="time">06:00</view>
+        </view>
+      
+    
+     <view class="lizi">
+      <view class="left">
+      <image src="http://m.qpic.cn/psb?/V10KNnd03rkHsX/SVYNQEPjNBZRZQKxJfqPRZH2BAzuGGVqQ5WG1OCGv8s!/b/dDABAAAAAAAA&bo=CAEfAQAAAAABBzc!&rf=viewer_4" /> 
+      </view>
+       <view class="right">每日灵活伸展</view>
+       <view class="time">06:00</view>
+        </view>
+
+</view>
+    </view>

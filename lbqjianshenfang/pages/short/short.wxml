@@ -1,0 +1,71 @@
+<view class="zuiwai">
+ <navigator url="../gailan/gailan" hover-class="navigator-hover">
+    <view class="kuang">
+        <view class="first">
+        <view  class="left">
+              <image src="http://m.qpic.cn/psb?/V10KNnd03rkHsX/3wLt2FsBiznBWdOIG*S9IG5XYh6gU4BfOZw91dDaW30!/b/dMMAAAAAAAAA&bo=.gDlAAAAAAADBz0!&rf=viewer_4" />
+        </view>
+        <view  style="margin-left:5%;float:left;margin-top:8%"><text >基础燃脂</text></view>
+        <view style="margin-top:15%;margin-left:-22.5%;float:left;color:#666;" ><text >初级-耐力</text></view>
+        </view>
+    </view>
+      </navigator>
+       <navigator url="../gailan/gailan" hover-class="navigator-hover">
+         <view class="kuang">
+        <view class="first">
+        <view  class="left">
+              <image src="http://m.qpic.cn/psb?/V10KNnd03rkHsX/Ub9ktzLbQq6NQCt5t*dNiJHpi25qNXJQELEzAILRpSY!/b/dMMAAAAAAAAA&bo=.QDlAAAAAAADFy4!&rf=viewer_4" />
+        </view>
+        <view  style="margin-left:5%;float:left;margin-top:8%"><text >核心缩腹2.0</text></view>
+        <view style="margin-top:15%;margin-left:-30.5%;float:left;color:#666;" ><text >初级-灵活性</text></view>
+        </view>
+    </view>
+    </navigator>
+ <navigator url="../gailan/gailan" hover-class="navigator-hover">
+        <view class="kuang">
+        <view class="first">
+        <view  class="left">
+              <image src="http://m.qpic.cn/psb?/V10KNnd03rkHsX/CmD97pnouNf1RxMaN0HbHzAj.5NkI*7yk88dm4vAv9Q!/b/dFMBAAAAAAAA&bo=.QDlAAAAAAADFy4!&rf=viewer_4" />
+        </view>
+        <view  style="margin-left:5%;float:left;margin-top:8%"><text >拓展空间</text></view>
+        <view style="margin-top:15%;margin-left:-22.5%;float:left;color:#666;" ><text >初级-灵活性</text></view>
+        </view>
+    </view> 
+       </navigator>
+ <navigator url="../gailan/gailan" hover-class="navigator-hover">
+        <view class="kuang">
+        <view class="first">
+        <view  class="left">
+              <image src="http://m.qpic.cn/psb?/V10KNnd03rkHsX/FoS.Iq31SkW0CStxUY77EgAbwQDeYdHA72kM4H1u1Kk!/b/dFMBAAAAAAAA&bo=.gDmAAAAAAADFy4!&rf=viewer_4" />
+        </view>
+        <view  style="margin-left:5%;float:left;margin-top:8%"><text >燃烧点</text></view>
+        <view style="margin-top:15%;margin-left:-17.5%;float:left;color:#666;" ><text >初级-耐力</text></view>
+        </view>
+    </view> 
+     </navigator>  
+ <navigator url="../gailan/gailan" hover-class="navigator-hover">
+        <view class="kuang">
+        <view class="first">
+        <view  class="left">
+              <image src="http://m.qpic.cn/psb?/V10KNnd03rkHsX/CcOJHDj7tXDMNinWxq2*r37eIqUInkIRFSDDdsRq6W8!/b/dL4AAAAAAAAA&bo=.gDmAAAAAAADFy4!&rf=viewer_4" />
+        </view>
+        <view  style="margin-left:5%;float:left;margin-top:8%"><text >循环刺激</text></view>
+        <view style="margin-top:15%;margin-left:-22.5%;float:left;color:#666;" ><text >初级-灵活性</text></view>
+        </view>
+    </view> 
+         </navigator>  
+ <navigator url="../gailan/gailan" hover-class="navigator-hover">
+        <view class="kuang">
+        <view class="first">
+        <view  class="left">
+              <image src="http://m.qpic.cn/psb?/V10KNnd03rkHsX/*CeyOjJB4xNO7aciRkQ3ZJWN934xgABhSaS0tedqrng!/b/dE0BAAAAAAAA&bo=.gDmAAAAAAADFy4!&rf=viewer_4" />
+        </view>
+        <view  style="margin-left:5%;float:left;margin-top:8%"><text >开启时间</text></view>
+        <view style="margin-top:15%;margin-left:-22.5%;float:left;color:#666;" ><text >初级-灵活性</text></view>
+        </view>
+    </view> 
+        <view class="footer">
+     <button>更多训练</button>
+ </view>
+  </navigator>  
+</view>

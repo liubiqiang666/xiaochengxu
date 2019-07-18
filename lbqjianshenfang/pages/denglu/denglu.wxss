@@ -1,0 +1,24 @@
+/* pages/denglu/denglu.wxss */
+.class{
+    width: 100%;
+    height: 1200rpx;
+}
+.swiper{
+height: 1500rpx;
+width: 100%;
+
+}
+.slide-image{
+    width: 850rpx;
+    height: 1500rpx;
+    margin-left:-8%;
+}
+.enter{
+    position: relative;
+    top: -15%;
+    text-align: center;
+}
+.enter button{
+    width: 40%;
+}
+

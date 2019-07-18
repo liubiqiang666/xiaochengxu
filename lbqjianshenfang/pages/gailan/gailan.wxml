@@ -1,0 +1,68 @@
+<view class="top">
+ <image src="http://m.qpic.cn/psb?/V10KNnd03rkHsX/JYlpLX4Jp1bwFTyuTaApUAGHnHlTIS5CAvAw0XasNXc!/b/dDABAAAAAAAA&bo=OATHAgAAAAARB8k!&rf=viewer_4" />
+<view class="begin"><text >开始</text></view> 
+</view>
+ 
+  
+
+<view class="mid">
+    <view style="text-align:center;font-size:50rpx;margin-top:3%;">
+        <text >适合人群</text>
+    </view>
+      <view style="text-align:center;margin-top:3%;font-size:35rpx;">
+        <text >锻炼，核心肌群力量，下半身耐力，上半身力量</text>
+    </view>
+</view>
+ 
+ <view class="mid-c">
+     <image src="http://m.qpic.cn/psb?/V10KNnd03rkHsX/EXj0nVwobf7XOluOi4E19ZjFoNeV7jBiY4cUBJ32Qpg!/b/dDMBAAAAAAAA&bo=OAQ9AgAAAAARFyM!&rf=viewer_4" />
+  <view style="text-align:center;font-size:35rpx;margin-top:3%;">
+        <text >训练创建者</text>
+    </view>
+      <view style="font-weight:bold;text-align:center;margin-top:3%;font-size:50rpx;">
+        <text >Kirsty Godso</text>
+    </view>
+  </view>
+   
+   <view class="footer">
+    <view style="background:#eee;font-size:30rpx;height:50rpx;"><text >热身</text></view>
+    <view class="neirong">
+    <view class="left">   
+    <image src="http://m.qpic.cn/psb?/V10KNnd03rkHsX/SVYNQEPjNBZRZQKxJfqPRZH2BAzuGGVqQ5WG1OCGv8s!/b/dDABAAAAAAAA&bo=CAEfAQAAAAABBzc!&rf=viewer_4" /> 
+    </view>   
+    <view class="wenzi" style="font-size:35rpx;float:left;margin-top:10%;margin-left:5%;">
+        <text >60   手臂伸展接手爬式和支架式</text>
+    </view>     
+    </view>    
+       <view class="neirong">
+    <view class="left">   
+    <image src="http://m.qpic.cn/psb?/V10KNnd03rkHsX/SVYNQEPjNBZRZQKxJfqPRZH2BAzuGGVqQ5WG1OCGv8s!/b/dDABAAAAAAAA&bo=CAEfAQAAAAABBzc!&rf=viewer_4" /> 
+    </view>   
+    <view class="wenzi" style="font-size:35rpx;float:left;margin-top:10%;margin-left:5%;">
+        <text style="margin-top:10%;">60   手臂伸展接手爬式和支架式</text>
+    </view>
+    
+          
+    </view> 
+     
+      <view style="background:#eee;font-size:30rpx;height:50rpx;"><text >耐力</text></view>
+    <view class="neirong">
+    <view class="left">  
+    <image src="http://m.qpic.cn/psb?/V10KNnd03rkHsX/SVYNQEPjNBZRZQKxJfqPRZH2BAzuGGVqQ5WG1OCGv8s!/b/dDABAAAAAAAA&bo=CAEfAQAAAAABBzc!&rf=viewer_4" /> 
+    </view>   
+    <view class="wenzi" style="font-size:35rpx;float:left;margin-top:10%;margin-left:5%;">
+        <text >60   手臂伸展接手爬式和支架式</text>
+    </view>     
+    </view>    
+       <view class="neirong">
+    <view class="left">   
+    <image src="http://m.qpic.cn/psb?/V10KNnd03rkHsX/SVYNQEPjNBZRZQKxJfqPRZH2BAzuGGVqQ5WG1OCGv8s!/b/dDABAAAAAAAA&bo=CAEfAQAAAAABBzc!&rf=viewer_4" /> 
+    </view>   
+    <view class="wenzi" style="font-size:35rpx;float:left;margin-top:10%;margin-left:5%;">
+        <text style="margin-top:10%;">60   手臂伸展接手爬式和支架式</text>
+    </view>
+    
+          
+    </view>    
+          
+   </view>
