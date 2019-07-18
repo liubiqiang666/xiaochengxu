@@ -1,0 +1,82 @@
+<!-- 搜索框 -->
+<view class="search">
+<input class='uu' placeholder='搜索'></input>
+</view>
+<!-- 中间内容 -->
+<view class='contern'>
+<view class='biaoti'>
+<text class='h1'>影院热播</text>
+<navigator url='../today/today' hover-class="none">
+查看更多
+</navigator>
+</view>
+<scroll-view scroll-x="true">
+  <view class="uploadWrap" scroll-x="true">
+    <view class="upload_Item" wx:for="{{subjects}}">
+      <!-- navigator：页面跳转链接 -->
+      <navigator url='../index/index' hover-class="none">
+        <image class="upload_Item_img" src="{{item.images.large}}"></image>
+        <text>{{item.title}}</text>
+        <van-rate
+          readonly
+          size="{{ 13 }}"
+          allow-half
+          value="{{ value }}"
+          bind:change="onChange"
+        />
+      </navigator>
+    </view>
+  </view>
+</scroll-view>
+</view>
+
+
+<view class='contern'>
+<view class='biaoti'>
+<text class='h1'>影院热映</text>
+<text class='h2'>查看更多 ></text>
+</view>
+<scroll-view scroll-x="true">
+  <view class="uploadWrap" scroll-x="true">
+    <view class="upload_Item" wx:for="{{subjects_hot}}">
+      <!-- navigator：页面跳转链接 -->
+      <navigator url='../index/index' hover-class="none">
+        <image class="upload_Item_img" src="{{item.images.large}}"></image>
+        <text>{{item.title}}</text>
+          <van-rate
+          readonly
+          size="{{ 13 }}"
+          allow-half
+          value="{{ value }}"
+          bind:change="onChange"
+        />
+      </navigator>
+    </view>
+  </view>
+</scroll-view>
+</view>
+
+<view class='contern'>
+<view class='biaoti'>
+<text class='h1'>即将上映</text>
+<text class='h2'>查看更多 ></text>
+</view>
+<scroll-view scroll-x="true">
+  <view class="uploadWrap" scroll-x="true">
+    <view class="upload_Item" wx:for="{{subjects_soon}}">
+      <!-- navigator：页面跳转链接 -->
+      <navigator url='../index/index' hover-class="none">
+        <image class="upload_Item_img" src="{{item.images.large}}"></image>
+        <text>{{item.title}}</text>
+          <van-rate
+          readonly
+          size="{{ 13 }}"
+          allow-half
+          value="{{ value }}"
+          bind:change="onChange"
+        />
+      </navigator>
+    </view>
+  </view>
+</scroll-view>
+</view>

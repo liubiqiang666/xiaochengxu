@@ -1,0 +1,122 @@
+<!-- 三个图片 -->
+<view class='content'>
+<view class="list">
+<image src="../images/1.jpg" class='img'></image >
+</view>
+<view class="list">
+<image src="../images/2.jpg" class='img'></image >
+</view>
+<view class="list">
+<image src="../images/3.jpg" class='img'></image >
+</view>
+<!-- 下面列表内容最外层 -->
+<view class='list-1'>
+<!-- 第一条父容器-->
+<view class='tp'>
+<!-- 图片容器 -->
+<view class='zhaopian'>
+<image src='../images/top250.png'>   </image>
+</view>
+<!-- 内容容器 -->
+<navigator url='../xiangqing/xiangqing' hover-class="none">
+<view class='neirong'>
+    <view>
+      <navigator  wx:for="{{subjects_top250}}">
+        {{index+1}}.{{item.title}} 
+        <text>{{item.rating.average}}分</text>
+      </navigator>
+    </view>
+</view>
+</navigator>
+</view>
+
+<!-- 第二条 -->
+<view class='tp'>
+<view class='zhaopian'>
+<image src='../images/dzp.png'>   </image>
+</view>
+<view class='neirong'>
+    <view>
+      <navigator  wx:for="{{subjects_top250}}">
+        {{index+1}}.{{item.title}} 
+        <text>{{item.rating.average}}分</text>
+      </navigator>
+    </view>
+</view>
+</view>
+
+<view class='tp'>
+<view class='zhaopian'>
+<image src='../images/hydy.png'>   </image>
+</view>
+<view class='neirong'>
+    <view>
+      <navigator  wx:for="{{subjects_top250}}">
+        {{index+1}}.{{item.title}} 
+        <text>{{item.rating.average}}分</text>
+      </navigator>
+    </view>
+</view>
+</view>
+
+<view class='tp'>
+<view class='zhaopian'>
+<image src='../images/khp.png'>   </image>
+</view>
+<view class='neirong'>
+    <view>
+      <navigator  wx:for="{{subjects_top250}}">
+        {{index+1}}.{{item.title}} 
+        <text>{{item.rating.average}}分</text>
+      </navigator>
+    </view>
+</view>
+</view>
+
+
+<view class='tp'>
+<view class='zhaopian'>
+<image src='../images/lmjp.png'>   </image>
+</view>
+<view class='neirong'>
+    <view>
+      <navigator  wx:for="{{subjects_top250}}">
+        {{index+1}}.{{item.title}} 
+        <text>{{item.rating.average}}分</text>
+      </navigator>
+    </view>
+</view>
+</view>
+
+<view class='tp'>
+<view class='zhaopian'>
+<image src='../images/wydy.png'>   </image>
+</view>
+<view class='neirong'>
+    <view>
+      <navigator  wx:for="{{subjects_top250}}">
+        {{index+1}}.{{item.title}} 
+        <text>{{item.rating.average}}分</text>
+      </navigator>
+    </view>
+</view>
+</view>
+
+
+<view class='tp'>
+<view class='zhaopian'>
+<image src='../images/xjp.png'>   </image>
+</view>
+<view class='neirong'>
+    <view>
+      <navigator  wx:for="{{subjects_top250}}">
+        {{index+1}}.{{item.title}} 
+        <text>{{item.rating.average}}分</text>
+      </navigator>
+    </view>
+</view>
+</view>
+
+
+</view>
+</view>

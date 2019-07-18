@@ -1,0 +1,127 @@
+<!--pages/xiangqing/xiangqing.wxml-->
+<view class='toubu'>
+<image src='../images/list.jpg'></image>
+</view>
+<view class='zhuti'>
+<view class='banner-5'>
+<text>看过0部</text>
+<text>/共250部</text>
+<van-button size="small">登陆查看成就</van-button>
+
+</view>
+<view class='number'>
+<view class='diyi'>
+<navigator url='../xsk/xsk' hover-class="none">
+<text>No.1</text>
+</navigator>
+</view>
+ </view>
+<view class='xiangqing'>
+<view class='top' style='margin-top:3%;'>
+<view class='fengmian'>
+ <navigator url='../xsk/xsk' hover-class="none">
+<image class="upload_Item_img" src="{{subjects[0].images.large}}"></image></navigator>
+</view>
+<view class='mid' style='margin-left:10rpx;'>
+ <navigator url='../xsk/xsk' hover-class="none"  wx:for="{{subjects_top250}}">
+        {{index+1}}.{{item.title}} 
+           <van-rate
+          readonly
+          size="{{ 13 }}"
+          allow-half
+          value="{{ value }}"
+          bind:change="onChange"
+        />
+        <text>{{item.rating.average}}分</text>
+       <text class='ziti'> 美国 {{item.genres[0]}} {{item.genres[1]}} / {{item.directors[0].name}} / {{item.casts[0].name}}  {{item.casts[1].name}}</text>
+      </navigator>
+</view>
+<view class='right'>
+<view class='icon'> <van-icon name="star-o"  />
+</view>
+<text>看过</text>
+</view>
+
+</view>
+<view class='bottom'><input placeholder='希望让人自由'></input></view>
+
+</view>
+
+
+<view class='number'>
+<view class='diyi'>
+<navigator url='../index/index' hover-class="none">
+<text>No.2</text>
+</navigator>
+</view>
+ </view>
+<view class='xiangqing'>
+<view class='top' style='margin-top:3%;'>
+<view class='fengmian'>
+<image class="upload_Item_img" src="{{subjects[0].images.large}}"></image>
+</view>
+<view class='mid' style='margin-left:10rpx;'>
+ <navigator  url='../xsk/xsk' hover-class="none"  wx:for="{{subjects_top250}}">
+        {{index+1}}.{{item.title}} 
+           <van-rate
+          readonly
+          size="{{ 13 }}"
+          allow-half
+          value="{{ value }}"
+          bind:change="onChange"
+        />
+        <text>{{item.rating.average}}分</text>
+       <text class='ziti'> 美国 {{item.genres[0]}} {{item.genres[1]}} / {{item.directors[0].name}} / {{item.casts[0].name}}  {{item.casts[1].name}}</text>
+      </navigator>
+</view>
+<view class='right'>
+<view class='icon'> <van-icon name="star-o"  />
+</view>
+<text>看过</text>
+</view>
+
+</view>
+<view class='bottom'><input placeholder='希望让人自由'></input></view>
+
+</view>
+
+
+<view class='number'>
+<view class='diyi'>
+<navigator url='../xsk/xsk' hover-class="none">
+<text>No.3</text>
+</navigator>
+</view>
+ </view>
+<view class='xiangqing'>
+<view class='top' style='margin-top:3%;'>
+<view class='fengmian'>
+<image class="upload_Item_img" src="{{subjects[0].images.large}}"></image>
+</view>
+<view class='mid' style='margin-left:10rpx;'>
+ <navigator url='../xsk/xsk' hover-class="none"  wx:for="{{subjects_top250}}"  >
+        {{index+1}}.{{item.title}} 
+           <van-rate
+          readonly
+          size="{{ 13 }}"
+          allow-half
+          value="{{ value }}"
+          bind:change="onChange"
+        />
+        <text>{{item.rating.average}}分</text>
+       <text class='ziti'> 美国 {{item.genres[0]}} {{item.genres[1]}} / {{item.directors[0].name}} / {{item.casts[0].name}}  {{item.casts[1].name}}</text>
+      </navigator>
+</view>
+<view class='right'>
+<view class='icon'> <van-icon name="star-o"  />
+</view>
+<text>看过</text>
+</view>
+
+</view>
+<view class='bottom'><input placeholder='希望让人自由'></input></view>
+
+</view>
+
+
+</view>

@@ -1,0 +1,32 @@
+<!--pages/denglu/denglu.wxml-->
+<view class="waimian" >
+
+    <video controls="{{false}}" autoplay="{{true}}" loop="{{true}}" src="../images/mp4ieannual2018.mp4"></video>
+<view class="waimian-1">
+<image src="../images/p3472.jpg" />
+</view>
+<view class="left">
+<text>已有735543人生成成就海报</text>
+
+</view>
+<view class="chatu">
+<image src="../images/p3738.jpg" />
+</view>
+<view class="ppp">
+<view class="yi"><text>2018年度电影榜单</text></view>
+<view class="er"><text>你看过多少?</text></view>
+<button>登陆解锁</button>
+</view>
+
+<view class="kk" >
+<text >2018分类榜单</text>
+</view>
+<view class="gg">
+<view class="hy">
+<image src="../" />   
+</view>
+
+
+</view>
+
+</view>

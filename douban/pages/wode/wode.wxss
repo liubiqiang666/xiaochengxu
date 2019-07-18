@@ -1,0 +1,93 @@
+/* pages/wode/wode.wxss */
+.rongqi{
+  width: 100%;
+}
+.denglu{
+  width: 100%;
+  height: 400rpx;
+}
+
+.denglu image{
+  width: 100%;
+}
+.denglu button{
+  width: 50%;
+  border-radius: 50rpx;
+  background: white;
+  position: absolute;
+  top:15%;
+  left: 25%
+}
+.banner{
+  width: 100%;
+  height: 60rpx;
+  margin-top: 3%;
+}
+.banner text:nth-child(1){
+  padding-left: 3%;
+  float: left;
+}
+.banner text:nth-child(2){
+float: right;
+padding-right: 3%;
+font-size: 26rpx;
+color: #666;
+}
+.fenxi{
+  margin-top: 5%;
+  width: 100%;
+  height: 160rpx;
+
+}
+.look{
+  float: left;
+  width: 100%;
+  height: 60rpx;
+
+}
+.look text{
+  font-size: 30rpx;
+  font-family: "黑体";
+  margin-left: 16%;
+}
+.bottom{
+  width: 100%;
+  height: 60rpx;
+  margin-top:0%;
+
+}
+.photo{
+  margin-top: 3%;
+  margin-left: 3%;
+  float: left;
+  width: 8%;
+  height: 60rpx;
+}
+.kanguo{
+  margin-top: 2%;
+  float: left;
+  width: 20%;
+  margin-left: 5%;
+}
+.kanguo text:nth-child(1){
+  font-size: 50rpx;
+}
+.kanguo text:nth-child(2){
+margin-left: 25rpx;
+font-size: 26rpx;
+}
+.sign{
+  float: left;
+  width: 25%;
+  height: 80rpx;
+  margin-left: 8%;
+}
+.sign text{
+  float: left;
+font-size: 30rpx;
+color: #666;
+}
+.btn{
+ padding-top: 2%;
+ margin-left: 5%;
+}

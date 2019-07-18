@@ -1,0 +1,92 @@
+<view class="zhuti">
+ <view class="kuang">
+     <view class="pingfen">
+    <image src='../images/pingfen.png'></image>
+   
+     </view>
+     
+<view class="wenzi">
+    <text>好于99%的剧情片</text>
+    <text>好于99%的犯罪片</text>
+</view>
+<view style="border:1rpx solid #eee;margin-top:20%;">
+</view>
+
+<view class="duanping">
+    <view class="left">
+        短评<text>281333</text>
+    </view>
+
+<view class="right" style="margin-top:1%;float:right;color:#666;font-size:35rpx;">
+看过<van-icon name="arrow-down" />
+</view>
+</view>
+
+<view class="pinglun">
+<view class="top">
+<view class="touxiang">
+<image src="{{subjects_pingjia.comments[0].author.avatar}}" />
+</view>
+<view class="right" style="float:left;height:100rpx;">
+<view style="width:100%;height:50rpx;"><text style="float:left;">{{subjects_pingjia.comments[0].author.name}}</text></view>
+<van-rate  size="{{ 10 }}" value="{{subjects_pingjia.comments[0].rating.value}}" bind:change="onChange" />
+</view>
+</view>
+<view class="bottom">
+<text style="font-size:26rpx;float:left;height:230rpx;">{{subjects_pingjia.comments[0].content}}</text>
+ <van-icon name="youzan-shield" style="font-size:50rpx;vertical-align:middle;"/><text style="margin-top:-5rpx;text-align: center;">177</text>
+</view>
+</view>
+
+<view class="pinglun">
+<view class="top">
+<view class="touxiang">
+<image src="{{subjects_pingjia.comments[4].author.avatar}}" />
+</view>
+<view class="right" style="float:left;height:100rpx;">
+<view style="width:100%;height:50rpx;"><text style="float:left;">{{subjects_pingjia.comments[4].author.name}}</text></view>
+<van-rate  size="{{ 10 }}" value="{{subjects_pingjia.comments[4].rating.value}}" bind:change="onChange" />
+</view>
+</view>
+<view class="bottom">
+<text style="font-size:26rpx;float:left;">{{subjects_pingjia.comments[4].content}}</text>
+ <van-icon name="youzan-shield" style="font-size:50rpx;vertical-align:middle;"/><text style="margin-top:-5rpx;text-align: center;">177</text>
+</view>
+</view>
+
+
+
+<view class="pinglun">
+<view class="top">
+<view class="touxiang">
+<image src="{{subjects_pingjia.comments[2].author.avatar}}" />
+</view>
+<view class="right" style="float:left;height:100rpx;">
+<view style="width:100%;height:50rpx;"><text style="float:left;">{{subjects_pingjia.comments[2].author.name}}</text></view>
+<van-rate  size="{{ 10 }}" value="{{subjects_pingjia.comments[2].rating.value}}" bind:change="onChange" />
+</view>
+</view>
+<view class="bottom">
+<text style="font-size:26rpx;float:left;width:100%;">{{subjects_pingjia.comments[2].content}}</text>
+ <van-icon name="youzan-shield" style="font-size:50rpx;vertical-align:middle;"/><text style="margin-top:-5rpx;text-align: center;">177</text>
+</view>
+</view>
+
+<view class="pinglun">
+<view class="top">
+<view class="touxiang">
+<image src="{{subjects_pingjia.comments[3].author.avatar}}" />
+</view>
+<view class="right" style="float:left;height:100rpx;">
+<view style="width:100%;height:50rpx;"><text style="float:left;">{{subjects_pingjia.comments[3].author.name}}</text></view>
+<van-rate  size="{{ 10 }}" value="{{subjects_pingjia.comments[3].rating.value}}" bind:change="onChange" />
+</view>
+</view>
+<view class="bottom">
+<text style="font-size:26rpx;float:left;height:230rpx;">{{subjects_pingjia.comments[3].content}}</text>
+ <van-icon name="youzan-shield" style="font-size:50rpx;vertical-align:middle;"/><text style="margin-top:-5rpx;text-align: center;">177</text>
+</view>
+</view>
+
+ </view>   
+</view>

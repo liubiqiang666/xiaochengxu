@@ -1,0 +1,64 @@
+/* pages/duanping/duangping.wxss */
+.zhuti{
+    width: 100%;
+    height: 2000rpx;
+
+}
+.kuang{
+    width: 94%;
+    margin: 0 auto;
+
+    height: 2000rpx;
+}
+.pingfen{
+    width: 100%;
+    height: 200rpx;
+
+  }
+  .pingfen image{
+     width: 100%;
+    height: 200rpx;
+  }
+  .wenzi{
+      width: 30%;
+      margin-top: 5%;
+      color: #666;
+      font-size: 26rpx;
+      float: right;
+  }
+.duanping{
+    width: 100%;
+    height: 60rpx;
+
+}
+.left{
+    float: left;
+    font-weight: bold;
+}
+.left text{
+    color: #666;
+    font-size: 26rpx;
+}
+.pinglun{
+    width: 100%;
+    height: 400rpx;
+
+}
+.top{
+    
+    width: 100%;
+    height: 100rpx;
+
+}
+.touxiang{
+    float: left;
+    width: 16%;
+    height:100rpx;
+
+}
+.touxiang image{
+    width: 100%;
+    float: left;
+    height:100rpx;
+    border-radius: 50rpx;
+}
